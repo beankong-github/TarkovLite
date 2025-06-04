@@ -1,15 +1,13 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "TarkovLitePlayerController.h"
+#include "Character/BasePlayerController.h"
 #include "EnhancedInputSubsystems.h"
-#include "Engine/LocalPlayer.h"
-#include "InputMappingContext.h"
 
-void ATarkovLitePlayerController::SetupInputComponent()
+
+void ABasePlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
-
 	// Add Input Mapping Contexts
 	if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
 	{
