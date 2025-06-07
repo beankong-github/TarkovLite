@@ -10,7 +10,6 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
-DEFINE_LOG_CATEGORY(TarkovCharacter);
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()

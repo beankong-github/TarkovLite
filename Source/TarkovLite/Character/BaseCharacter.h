@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "TLTypes.h"
 #include "GameFramework/Character.h"
 #include "BaseCharacter.generated.h"
 
@@ -10,7 +11,6 @@ class USpringArmComponent;
 class UCameraComponent;
 struct FInputActionValue;
 
-DECLARE_LOG_CATEGORY_EXTERN(TarkovCharacter, Log, All);
 
 /**
  * Base Character class for TarkovLite
